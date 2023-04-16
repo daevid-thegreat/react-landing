@@ -1,7 +1,5 @@
 import React from 'react'
 import {Navbar} from './Navbar'
-import BannerBackground from '../assets/home-banner-background.png'
-import BannerImage from '../assets/home-banner-image.png'
 import {FiArrowRight} from 'react-icons/fi'
 
 export const Home = () => {
@@ -10,7 +8,7 @@ export const Home = () => {
         <Navbar/>
         <div className="home-banner-container">
           <div className="home-bannerImage-container">
-            <img src={BannerBackground} alt="" />
+            <img src='/assets/home-banner-background.png' alt="" />
           </div>
           <div className="home-text-section">
             <h1 className="primary-heading">
@@ -22,7 +20,7 @@ export const Home = () => {
             </button>
             </div>
             <div className="home-image-container">
-              <img src={BannerImage} alt="" />
+              <img src='/assets/home-banner-image.png' alt="" />
             </div>
           
         </div>
